@@ -1,4 +1,4 @@
-### self utils 
+## personal utils 
 
 ### such as typeword function
 

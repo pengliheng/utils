@@ -1,12 +1,17 @@
 {
   "name": "@pengliheng/utils",
   "version": "1.0.0",
-  "description": "### such as typeword function",
+  "description": "personal javascript function tools",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": ["react","tools", "utils","pure javascript", "es6", "es7"],
   "author": "pengliheng",
-  "license": "ISC"
+  "license": "ISC",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pengliheng/utils.git"
+  }
 }
