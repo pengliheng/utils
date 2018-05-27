@@ -1,0 +1,12 @@
+{
+  "name": "@pengliheng/utils",
+  "version": "1.0.0",
+  "description": "### such as typeword function",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "pengliheng",
+  "license": "ISC"
+}
