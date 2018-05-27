@@ -1,15 +1,18 @@
-### myself utils 
+### self utils 
 
 ### such as typeword function
 
-i assume you has support async / await
+assume you has support async / await
 
-i will do nothing to make you suport es6/es7
+i do nothing to make you suport es6/es7
 
-if you need es5 summary ,you need transform it to es5 by yourself.
+if you need es5 summary ,you need to transform it to es5.
 
+
+#### options to init an self npm package
+```bash
 npm init --scope=pengliheng
-
+```
 
 #### …or create a new repository on the command line
 ```bash
