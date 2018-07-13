@@ -1,13 +1,23 @@
 {
   "name": "@pengliheng/utils",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "description": "personal javascript function tools",
   "main": "index.js",
   "scripts": {
     "pu": "npm publish --access-public",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["react","tools", "utils","pure javascript", "es6", "es7"],
+  "keywords": [
+    "react",
+    "tools",
+    "debounce",
+    "Throttle",
+    "algorithm",
+    "utils",
+    "pure javascript",
+    "es6",
+    "es7"
+  ],
   "author": "pengliheng",
   "license": "ISC",
   "private": false,
