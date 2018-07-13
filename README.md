@@ -8,7 +8,6 @@ i do nothing to make you suport es6/es7
 
 if you need es5 summary ,you need to transform it to es5.
 
-
 #### options to init an self npm package
 ```bash
 npm init --scope=pengliheng

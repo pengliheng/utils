@@ -1,15 +1,16 @@
 {
   "name": "@pengliheng/utils",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "personal javascript function tools",
   "main": "index.js",
   "scripts": {
+    "pu": "npm publish --access-public",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": ["react","tools", "utils","pure javascript", "es6", "es7"],
   "author": "pengliheng",
   "license": "ISC",
-  "private": true,
+  "private": false,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/pengliheng/utils.git"

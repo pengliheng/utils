@@ -41,8 +41,36 @@ class TypeWord {
   }
 }
 
+function debounce(callback, ms){
+  var times;
+  var outArgs = arguments
+  return function (){
+    var self = this
+    var innerArgs = arguments
+    clearTimeout(times)  // 如果你在某段时间之内再次触发，清除上一次触发的定时器，重新添加定时器。
+    times = setTimeout (function () {
+      callback.apply(self,[...innerArgs, ...[...outArgs].splice(2,)]);
+    },ms)
+  }
+}
+function throttle(callback, ms){
+  var times;
+  var last = 0;
+  var outArgs = arguments
+  return function (){
+    var innerArgs = arguments
+    var now = +new Date();
+    if(now>last+ms){
+      // 超过节流时间，执行一次,并将上次执行时间戳更新。
+      last = now
+      callback.apply(this,[...innerArgs, ...[...outArgs].splice(2,)]);
+    }
+  }
+}
 
 export {
   TypeWord, // use with new
   sleep, // normal funciton
+  debounce, // 防抖函数
+  throttle, // 节流函数
 };
